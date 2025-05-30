@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Image
-        source={require('./assets/SlomoMainScreenPNG.png')}
+        source={require('./src/assets/images/SlomoMainScreenPNG.png')}
         style={styles.image}
       />
      <ActivityIndicator size={100} color={"#66452a"} style ={styles.activityIndicator}/>
